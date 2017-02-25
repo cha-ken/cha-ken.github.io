@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.chara_box { position: relative;}
+
+.chara_box p {
+	position: absolute;
+	top: 156px;
+	left: 32px;
+	width: 380px;
+}

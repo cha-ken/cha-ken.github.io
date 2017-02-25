@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.goods_box {
+	width: 412px;
+	height: 233px;
+	padding: 14px;
+	background-image: url(../goods/images/bg_goods.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.box_L { float: left;}
+.box_R { float: right;}
+
+.goods_box th, .goods_box td {
+	text-align: left;
+	vertical-align: top;
+}
+
+.goods_box th {
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.item_photo { width: 212px;}
+
+.info_txt {
+	font-size: 14px;
+	height: 93px;
+}
+
+.price {
+	padding-top: 12px;
+	background-image: url(../goods/images/line_dash.gif);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	color: #990000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+td.cart {
+	text-align: right;
+	vertical-align: bottom;
+	height: 52px;
+}
