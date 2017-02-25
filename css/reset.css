@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,p,blockquote,th,td{margin:0;padding:0;}
+img{border:0;}
+address,caption,em,strong,th{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+
+body {font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+table {font-size:inherit;font:100%;}
+li { list-style: none;}

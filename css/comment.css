@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.comment_box {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.comment_box p {
+	position: absolute;
+	top: 156px;
+	left: 32px;
+	width: 620px;
+}
+
+.comment_box .photo {
+	position: absolute;
+	top: 21px;
+	right: 16px;
+}

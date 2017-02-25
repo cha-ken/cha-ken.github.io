@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+#branding {
+	width: 845px;
+	height: 412px;
+	padding: 20px 35px 20px 20px;
+	margin-bottom: 16px;
+	background-image: url(../images/top/bg_branding.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+#flash {
+	float: left;
+	width: 550px;
+	height: 412px;
+}
+
+#news {
+	float: right;
+	width: 280px;
+	padding-top: 10px;
+}
+
+#news td {
+	padding: 10px;
+	background-image: url(../images/top/line_dash.gif);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	font-size: 14px;
+}
+
+h2 { margin-bottom: 16px;}
+
+#banner {
+	width: 880px;
+	margin: 0 10px;
+}
+
+.banner_large { margin-bottom: 21px;}
+
+.bn_L { float: left;}
+.bn_R { float: right;}
+
+.banner_small {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.banner_small img { margin: 0 1px;}
+
+#contents #update {
+	margin-bottom: 5px;
+	padding-right: 30px;
+	font-size: 12px;
+	text-align: right;
+	color: #000000;
+}

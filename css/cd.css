@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cd_info {
+	padding: 24px 20px 0;
+	margin-bottom: 29px;
+	height: 1480px;
+	background-image: url(../cd/images/bg_cd_info.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+#cd_jacket {
+	float: left;
+	width: 336px;
+	margin-bottom: 14px;
+}
+
+#cd_copy {
+	float: right;
+	width: 504px;
+	padding-top: 21px;
+}
+
+div#cd_copy p { margin: 0;}
+
+div#cd_copy #cd_title {	margin: 16px 0 20px 44px;}
+
+div#contents #benefit { margin: 0;}
+
+div#contents #benefit li {
+	margin: 0 0 14px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 29px;
+}
+
+#benefit li img { vertical-align: top;}
+
+#contents #price {
+	margin-bottom: 18px;
+	text-align: center;
+}
+
+#contents #disc2 {
+	margin-bottom: 12px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#contents #samples {
+	margin: 0;
+	list-style: none;
+}
+
+#contents #samples li {
+	float: left;
+	margin: 0 12px 0 0;
+}
+#contents #samples li#samples_last { margin: 0;}
+
+
+#tracklist {
+	padding: 17px 22px 1px;
+	font-size: 14px;
+	background-image: url(../cd/images/bg_present.gif);
+	height: 645px;
+	background-repeat: no-repeat;
+}
+
+
+
+#congratulations {
+	padding: 17px 22px 1px;
+	background-image: url(../cd/images/bg_congratulations.gif);
+	background-repeat: no-repeat;
+}
+
+#cong_txt { width: 588px; font-size: 14px;}
+
+#contact {
+	text-align: center;
+	font-size: 14px;
+}

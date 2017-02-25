@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+/* ======= LAYOUT ===============================*/
+html { background-color: #FEDD01;}
+
+body {
+	padding: 0px;
+	color: #000000;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	line-height: 1.4;
+	font-size: 105%;
+	text-align: center;
+	background-color: #FEDD01;
+}
+
+div#wrap {
+	text-align: left;
+	margin: 0 auto;
+	width: 900px;
+}
+
+div#head {
+	position: relative;
+	height: 168px;
+	background-image: url(../images/bg_head.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+div#head p#logo {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div#contents {
+	padding-top: 22px;
+}
+
+/* ===== menu ===== */
+div#menu {
+	width: 493px;
+	height: 92px;
+	background-image: url(../images/bg_menu.gif);
+	position: absolute;
+	top: 0px;
+	right: 27px;
+	background-repeat: no-repeat;
+	padding-top: 29px;
+}
+
+div#menu ul {
+	padding: 0;
+	list-style: none;
+}
+
+div#menu ul li {
+	float: left;
+	display: block;
+	margin-right: 14px;
+	margin-bottom: 22px;
+}
+
+div#menu ul li.mdl {
+	float: left;
+	display: block;
+	margin-right: 15px;
+	margin-bottom: 22px;
+}
+
+div#menu ul li.last {
+	float: left;
+	display: block;
+	margin-right: 0px;
+	margin-bottom: 22px;
+}
+
+
+/* ===== foot ===== */
+div#foot {
+	_height: 29px;
+	background-image: url(../images/bg_foot.gif);
+	background-repeat: no-repeat;
+	height: 89px;
+	text-align: center;
+}
+
+div#foot p#link_top {
+	padding-top: 28px;
+	font-size: 12px;
+}
+div#foot p#link_top a {
+	color: #FEDD01;
+}
+
+div#foot p#address {
+	padding-top: 16px;
+}
+/* ==== link ===== */
+a:link, a:visited { color: #098BC4;}
+a:hover, a:active { text-decoration: underline;}
+
+/* ===== Clearfix ===== */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix { display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix { display: block;}
+/* End hide from IE-mac */
